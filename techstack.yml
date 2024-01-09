@@ -1,0 +1,458 @@
+repo_name: 2lambda123/FacebookBot
+report_id: 179147b53ae88f93a17bc4252544e614
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:37+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: master
+detected_tools_count: 28
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/FacebookBot
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hùng Trần
+  last_updated_on: 2016-06-12 01:45:46.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/Utils/NLP.py
+  detection_source: Utils/NLP.py
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 19:12:00.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/.github/workflows/snorkell-auto-documentation.yml
+  detection_source: ".github/workflows/snorkell-auto-documentation.yml"
+  last_updated_by: snorkell-ai[bot]
+  last_updated_on: 2023-12-20 11:09:29.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hùng Trần
+  last_updated_on: 2016-06-12 01:45:46.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 0.10.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-08-04 01:27:54.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: '0.23'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hùng Trần
+  last_updated_on: 2016-06-12 01:45:46.000000000 Z
+- name: Twisted
+  description: An asynchronous networking framework written in Python
+  package_url: https://pypi.org/project/Twisted
+  version: 16.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19917/default_0bcdf4801fb769eac80e668560a1012afd8a336d.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in Twisted
+    cve_id: CVE-2020-10108
+    cve_url: https://github.com/advisories/GHSA-h96w-mmrf-2h6v
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 20.3.0
+  - name: HTTP Request Smuggling in Twisted
+    cve_id: CVE-2020-10109
+    cve_url: https://github.com/advisories/GHSA-p5xh-vx83-mxcj
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 20.3.0
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 0.11.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+  vulnerabilities:
+  - name: High resource usage when parsing multipart form data with many fields
+    cve_id: CVE-2023-25577
+    cve_url: https://github.com/advisories/GHSA-xg9f-g7g7-2323
+    detected_date: Feb 16
+    severity: high
+    first_patched: 2.2.3
+  - name: Pallets Werkzeug cross-site scripting vulnerability
+    cve_id: CVE-2016-10516
+    cve_url: https://github.com/advisories/GHSA-h2fp-xgx6-xh6f
+    detected_date: Jun 18
+    severity: moderate
+    first_patched: 0.11.11
+  - name: Incorrect parsing of nameless cookies leads to __Host- cookies bypass
+    cve_id: CVE-2023-23934
+    cve_url: https://github.com/advisories/GHSA-px8h-6qxv-m22q
+    detected_date: Feb 16
+    severity: low
+    first_patched: 2.2.3
+- name: autobahn
+  description: WebSocket client &amp; server library, WAMP real-time framework
+  package_url: https://pypi.org/project/autobahn
+  version: 0.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20100/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+  vulnerabilities:
+  - name: Open Redirect in autobahn
+    cve_id: CVE-2020-35678
+    cve_url: https://github.com/advisories/GHSA-gwp7-vqr5-h33h
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 20.12.3
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:10:04.000000000 Z
+- name: geopy
+  description: Python Geocoding Toolbox
+  package_url: https://pypi.org/project/geopy
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20597/default_765f8741ddac0d2e816e17438b35e7fda5019b4a.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-26 17:24:16.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 1.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 19.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hùng Trần
+  last_updated_on: 2016-06-12 01:45:46.000000000 Z
+- name: httplib2
+  description: A comprehensive HTTP client library
+  package_url: https://pypi.org/project/httplib2
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19914/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+  vulnerabilities:
+  - name: CRLF injection in httplib2
+    cve_id: CVE-2020-11078
+    cve_url: https://github.com/advisories/GHSA-gg84-qgv9-w4pq
+    detected_date: Aug 22
+    severity: low
+    first_patched: 0.18.0
+  - name: Regular Expression Denial of Service (REDoS) in httplib2
+    cve_id: CVE-2021-21240
+    cve_url: https://github.com/advisories/GHSA-93xj-8mrv-444m
+    detected_date: Aug 22
+    severity: low
+    first_patched: 0.19.0
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: '0.24'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hùng Trần
+  last_updated_on: 2016-06-12 01:45:46.000000000 Z
+- name: oauth2
+  description: Library for OAuth version 1.9
+  package_url: https://pypi.org/project/oauth2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20710/default_3275977d966f697dfd31303c8596879bc8abff5d.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+- name: oauth2client
+  description: OAuth 2.0 client library
+  package_url: https://pypi.org/project/oauth2client
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19956/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+- name: pyOpenSSL
+  description: Python wrapper module around the OpenSSL library
+  package_url: https://pypi.org/project/pyOpenSSL
+  version: 0.15.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19873/default_7ed3c4ccf2a3218ae3655165b980bd4a90a445dc.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+  vulnerabilities:
+  - name: Insufficiently Protected Credentials in Requests
+    cve_id: CVE-2018-18074
+    cve_url: https://github.com/advisories/GHSA-x84v-xcm2-53pg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.20.0
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hùng Trần
+  last_updated_on: 2016-06-12 01:45:46.000000000 Z
+- name: txaio
+  description: Compatibility API between asyncio/Twisted/Trollius
+  package_url: https://pypi.org/project/txaio
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+- name: ujson
+  description: Ultra fast JSON encoder and decoder for Python
+  package_url: https://pypi.org/project/ujson
+  version: '1.33'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20357/default_1e2908ef2614eb1bb39298a5fc937d8c068f3a2c.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
+  vulnerabilities:
+  - name: Incorrect handling of invalid surrogate pair characters
+    cve_id: CVE-2022-31116
+    cve_url: https://github.com/advisories/GHSA-wpqr-jcpx-745r
+    detected_date: Jul 6
+    severity: high
+    first_patched: 5.4.0
+  - name: Potential double free of buffer during string decoding
+    cve_id: CVE-2022-31117
+    cve_url: https://github.com/advisories/GHSA-fm67-cv37-96ff
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 5.4.0
+- name: websocket-client
+  description: WebSocket client for Python. hybi13 is supported
+  package_url: https://pypi.org/project/websocket-client
+  version: 0.37.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/2lambda123/FacebookBot/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Hung Tran
+  last_updated_on: 2016-07-23 20:25:03.000000000 Z
