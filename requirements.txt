@@ -22,5 +22,5 @@ txaio==2.5.1
 ujson==5.4.0
 watson-developer-cloud==0.16.0
 websocket-client==0.37.0
-Werkzeug==3.0.1
+Werkzeug==3.0.3
 yelp==1.0.2
